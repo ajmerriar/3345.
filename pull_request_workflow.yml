@@ -1,0 +1,14 @@
+name: Pull Request Workflow
+
+on:
+  pull_request:
+    types:
+      - opened
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Print Message
+      run: echo "This workflow runs when a pull request is opened.This is my first workflow to learn the GitHub actions for class of Professor Graham."
