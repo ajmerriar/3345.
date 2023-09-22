@@ -11,4 +11,4 @@ jobs:
 
     steps:
     - name: Print Message
-      run: echo "This workflow runs when a pull request is openedd.This is my first workflow to learn the GitHub action for class of Professor Graham."
+      run: echo "This workflow runs when a pull request is openedd.This is my first workflow to learn the GitHub action for class of Professor_Graham."
